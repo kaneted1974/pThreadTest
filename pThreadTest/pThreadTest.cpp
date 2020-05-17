@@ -4,6 +4,7 @@
 #include <iostream>
 #include "BinaryGenerator.h"
 #include "csub.h"
+#include "mainC.h"
 
 using namespace std;
 
@@ -16,5 +17,6 @@ int main()
     //cout << bg.getParam() << endl;
 
     cout << csub(7);
+    mainC();
     return 0;
 }

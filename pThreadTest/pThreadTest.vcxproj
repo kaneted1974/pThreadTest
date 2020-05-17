@@ -147,16 +147,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="art_excute_async.cpp" />
     <ClCompile Include="BinaryGenerator.cpp" />
     <ClCompile Include="csub.cpp" />
     <ClCompile Include="excuteCpp.cpp" />
+    <ClCompile Include="mainC.cpp" />
     <ClCompile Include="pThreadTest.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="art_excute_async.h" />
     <ClInclude Include="BinaryGenerator.h" />
     <ClInclude Include="csub.h" />
     <ClInclude Include="excuteCpp.h" />
+    <ClInclude Include="mainC.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="ヘッダー.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="pThreadTest.rc" />
