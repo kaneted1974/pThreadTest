@@ -2,10 +2,18 @@
 //
 
 #include <iostream>
+#include "BinaryGenerator.h"
+#include "csub.h"
 
 using namespace std;
 
 int main()
 {
     cout << "Hello World!\n";
+    BinaryGenerator bg;
+    cout << bg.getParam() << endl;
+    bg.setParam(10);
+    cout << bg.getParam() << endl;
+    cout << csub(7);
+    return 0;
 }

@@ -147,7 +147,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BinaryGenerator.cpp" />
+    <ClCompile Include="csub.cpp" />
     <ClCompile Include="pThreadTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BinaryGenerator.h" />
+    <ClInclude Include="csub.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="pThreadTest.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
