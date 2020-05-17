@@ -149,11 +149,13 @@
   <ItemGroup>
     <ClCompile Include="BinaryGenerator.cpp" />
     <ClCompile Include="csub.cpp" />
+    <ClCompile Include="excuteCpp.cpp" />
     <ClCompile Include="pThreadTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryGenerator.h" />
     <ClInclude Include="csub.h" />
+    <ClInclude Include="excuteCpp.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
